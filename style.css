@@ -9,6 +9,12 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, black, black) 
+     url(images/pexels-fotoaibe-1571453.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .container{
     width: 80%;
@@ -16,7 +22,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 h1{
     font-size: 4rem;
+    color: white;
 }
